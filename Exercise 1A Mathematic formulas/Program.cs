@@ -14,7 +14,7 @@ namespace Exercise_1A_Mathematic_formulas
             
             // Basic Difficulty Questions
             // Determining Area, Circumference, and Volume from a given radius.
-            Console.WriteLine("Please enter the radius: ");
+            Console.WriteLine("Please enter a radius to determine the area and circumference of a circle. As well as the volume of a hemisphere: ");
             double radius = double.Parse(Console.ReadLine());
             double area = Math.PI * (radius * radius);
             double circ = 2 * Math.PI * radius;
@@ -28,7 +28,7 @@ namespace Exercise_1A_Mathematic_formulas
             // Intermediate Difficulty Question
             // Area of a triangle given the length of sides
             // FL = First Length   SL = Second Length   TL = Third Length   P = Half of the Circumference   A = Area
-            Console.WriteLine("Please enter the first length: ");
+            Console.WriteLine("Enter the length of the sides of a triangle to determine the area. Please enter the first length: ");
             double FL = double.Parse(Console.ReadLine());
             Console.WriteLine("Please enter the second length: ");
             double SL = double.Parse(Console.ReadLine());
@@ -37,7 +37,7 @@ namespace Exercise_1A_Mathematic_formulas
             double P = (FL + SL + TL) / 2;
             double A = Math.Sqrt(P * (P - FL) * (P - SL) * (P - TL));
             Console.WriteLine("The area of the triangle is: {0:F2} ", A);
-
+            Console.ReadLine();
             Console.Clear();
 
             // Advanced Difficulty Question
@@ -56,10 +56,11 @@ namespace Exercise_1A_Mathematic_formulas
             {
                 double x1 = (-b + Root) / 2 * a;
                 double x2 = (-b - Root) / 2 * a;
-                Console.WriteLine("x1= " + x1 + "x2= " + x2);
+                Console.WriteLine("x1= " + x1 + " x2= " + x2);
             }
             else { Console.WriteLine("Sorry, there is no root");
                 }
+            // 
 
         }
     }
