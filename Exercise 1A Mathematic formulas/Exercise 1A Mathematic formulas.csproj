@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MathFunctions\In Class Variables and Operators\ExerciseMathFunctions.csproj">
+      <Project>{07a1f8ca-20aa-4ba0-911a-c4c44963df8d}</Project>
+      <Name>ExerciseMathFunctions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

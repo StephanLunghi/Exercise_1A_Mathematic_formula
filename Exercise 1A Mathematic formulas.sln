@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 1A Mathematic formulas", "Exercise 1A Mathematic formulas\Exercise 1A Mathematic formulas.csproj", "{A6D7D171-C05D-4BA1-BFAE-B88C54E4F705}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseMathFunctions", "..\MathFunctions\In Class Variables and Operators\ExerciseMathFunctions.csproj", "{07A1F8CA-20AA-4BA0-911A-C4C44963DF8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math methods for homework", "..\MathFunctions\Math methods for homework\Math methods for homework.csproj", "{55318479-F6E0-4026-90FA-4F9B73922892}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A6D7D171-C05D-4BA1-BFAE-B88C54E4F705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6D7D171-C05D-4BA1-BFAE-B88C54E4F705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6D7D171-C05D-4BA1-BFAE-B88C54E4F705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A1F8CA-20AA-4BA0-911A-C4C44963DF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A1F8CA-20AA-4BA0-911A-C4C44963DF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A1F8CA-20AA-4BA0-911A-C4C44963DF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A1F8CA-20AA-4BA0-911A-C4C44963DF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55318479-F6E0-4026-90FA-4F9B73922892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55318479-F6E0-4026-90FA-4F9B73922892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55318479-F6E0-4026-90FA-4F9B73922892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55318479-F6E0-4026-90FA-4F9B73922892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
