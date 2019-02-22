@@ -39,8 +39,9 @@ namespace Exercise_1A_Mathematic_formulas
             Console.WriteLine("The area of the triangle is: {0:F2} ", A);
 
             // Advanced Difficulty Question
-            //Solving a quadratic equation
-
+            // Solving a quadratic equation
+            // I had a hard time understanding how to code this, I used Stackoverflow to help with this. 
+            double 
 
         }
     }
